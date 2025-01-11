@@ -12,7 +12,7 @@
 ## 使用说明
 ~~~xml
 <dependency>
-  <groupId>cn.ljserver.tool</groupId>
+  <groupId>cn.copilot.tool</groupId>
   <artifactId>web-office-v3</artifactId>
   <version>3.1.2</version>
 </dependency>
