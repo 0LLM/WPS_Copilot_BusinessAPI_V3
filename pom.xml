@@ -10,11 +10,15 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>cn.copilot.tool</groupId>
+	<groupId>WPS.Copilot</groupId>
 	<artifactId>web-office-v3</artifactId>
-	<version>3.1.2</version>
+	<version>3.1.2</version> 
+	
+<!-- 		<groupId>cn.ljserver.tool</groupId>
+	<artifactId>web-office-v3</artifactId>
+	<version>3.1.2</version>  -->
 
-	<name>web-office-v3</name>
+	<name>com.web.wps.v3</name>
 	<description>WPS WebOffice Server</description>
 	<!-- <url>https://github.com/mose-x/wps-weboffice-sdk-v3</url> -->
 
@@ -134,7 +138,8 @@
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
-			<plugin>
+			
+		<!-- 	<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>1.5</version>
@@ -148,6 +153,8 @@
 					</execution>
 				</executions>
 			</plugin>
+			 -->
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>

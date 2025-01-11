@@ -14,9 +14,15 @@
 
 ```xml
 <dependency>
-    <groupId>cn.copilot.tool</groupId>
+   <!--  <groupId>cn.copilot.tool</groupId>
     <artifactId>web-office-v3</artifactId>
     <version>3.1.2</version>
+    -->
+    	<groupId>WPS.Copilot</groupId>
+	<artifactId>web-office-v3</artifactId>
+	<version>3.1.2</version> 
+	
+	
 </dependency>
 ```
 
@@ -376,3 +382,6 @@ public class TestController extends ProviderBaseController {
 其它接口，请查阅 `controller` 或者 `service` 下的各种方法。
 
 关于接口的更多说明，请参考 [WebOffice 开放平台-WebOffice 回调配置](https://solution.wps.cn/docs/callback/summary.html)。
+
+
+https://github.com/0LLM/WPS_Copilot/blob/main/java/README.md
