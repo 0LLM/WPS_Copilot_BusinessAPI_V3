@@ -16,7 +16,7 @@
 
 	<name>web-office-v3</name>
 	<description>WPS WebOffice Server</description>
-	<url>https://github.com/mose-x/wps-weboffice-sdk-v3</url>
+	<!-- <url>https://github.com/mose-x/wps-weboffice-sdk-v3</url> -->
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
